@@ -1,0 +1,10 @@
+.editorconfig
+.eslintrc.js
+.gitattributes
+.gitignore
+.travis.yml
+*.test.js
+coverage
+Makefile
+test
+yarn.lock
