@@ -1,6 +1,6 @@
-const AlarmAccessory = require('./lib/accessories/alarm');
+const SecuritasDirectPlatform = require('./lib/platform');
 
 module.exports = (homebridge) => {
-  AlarmAccessory.init(homebridge);
-  homebridge.registerAccessory('homebridge-securitas-direct', 'securitas-direct', AlarmAccessory);
+  SecuritasDirectPlatform.init(homebridge);
+  homebridge.registerPlatform('homebridge-securitas-direct', 'securitas-direct', SecuritasDirectPlatform);
 };
