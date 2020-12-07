@@ -1,6 +1,5 @@
 # homebridge-securitas-direct
-
-[![Travis CI badge](https://travis-ci.org/ptz0n/homebridge-securitas-direct.svg?branch=master)](https://travis-ci.org/github/ptz0n/homebridge-securitas-direct)
+[![GitHub Actions badge](https://github.com/ptz0n/homebridge-securitas-direct/workflows/Test/badge.svg)](https://github.com/ptz0n/homebridge-securitas-direct/actions?query=workflow%3ATest)
 
 This is a plugin for [Homebridge](https://github.com/nfarina/homebridge). It's
 an implementation for your Securitas Direct (Verisure non-V Box) installation and exposes the following devices:
