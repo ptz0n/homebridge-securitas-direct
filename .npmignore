@@ -2,6 +2,7 @@
 .eslintrc.js
 .gitattributes
 .gitignore
+.github
 .travis.yml
 *.test.js
 coverage
